@@ -1,0 +1,189 @@
+h1{
+    font-family: Impact;
+    font-weight: bold;
+    font-size: 56px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+body{
+    background-color: #898790;
+}
+
+h2{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ff0000;
+}
+
+p{
+    font-family: Arial;
+    font-size: 18px;
+    color: #000000;
+    padding: 3px;
+}
+
+label{
+    font-family: Tahoma;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.navButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    color: #000000;
+}
+
+a.home:link,
+a.survey:link,
+a.links:link,
+a.platforms:link{
+    text-decoration: none;
+    color: black;
+}
+
+a.home:visited,
+a.survey:visited,
+a.links:visited,
+a.platforms:visited{
+    text-decoration: underline;
+    color: rgb(0, 0, 255);
+}
+
+a.home:hover,
+a.survey:hover,
+a.links:hover,
+a.platforms:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 255, 0.925);
+}
+
+/*.homePageImage{
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+}
+
+.form{
+    width: 400px;
+    border: 2px solid black;
+}
+
+.formLegend{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.nameEmailField{
+    border: none;
+    display: flex;
+    flex-direction: column;
+
+}
+.firstInput{
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-left: 15px;
+
+}
+
+.emailInput{
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+    margin-left: 51px;
+}
+
+.name, .email, .comment{
+    padding: 10px;
+}
+
+.genreSelectionField{
+    border: 2px solid rgb(0, 0, 0);
+    width: 350px;
+}
+.checkRPG, .checkRTS, .checkMOBA, .checkFPS, .checkOther{
+    margin-top: 5px;
+}
+
+.RPGLabel, .RTSLabel, .MOBALabel, .FPSLabel, .otherLabel{
+    padding: 5px;
+}
+
+textarea{
+    width: 200px;
+    height: 40px;
+    vertical-align: top;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.submit{
+    text-align: center;
+}
+
+.gameLinks{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    font-family: Impact;
+    font-weight: bold;
+    color: #000000;
+    width: 250px;
+    margin: 0 auto;
+}
+
+li{
+    padding: 10px;
+}*/
+
+.platformSet1, .platformSet2, .platformSet3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+}
+
+.steamLabel, .playstationLabel, .nintendoLabel, .pcLabel, .mobileLabel, .vrLabel{
+    color: #ff0000;
+    text-decoration: underline;
+    font-size: large;
+}
+
+.logo1{
+    width:250px;
+    height: 100px;
+    object-fit: contain;
+}
+.logo2{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.logo3, .logo4{
+    width:250px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.logo5, .logo6{
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+}
